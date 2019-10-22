@@ -1,11 +1,14 @@
 import React from 'react';
-import HomePage from './homepage.component';
+import HomePage from './components/pages/homepage/homepage.component';
 import './App.css';
 
 function App() {
+  const mainStyles={
+    marginLeft:'43%'
+  }
   return (
     <div className="App">
-      <h1>Crown Clothing</h1>
+      <h1 style={mainStyles}>Crown Clothing</h1>
       <HomePage/>
     </div>
   );
