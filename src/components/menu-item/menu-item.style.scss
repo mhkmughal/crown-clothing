@@ -13,6 +13,11 @@
   &.large{
     height:350px;
   }
+  
+  &.small{
+    height:50px;
+  }
+
 
   &:hover {
     cursor: pointer;
