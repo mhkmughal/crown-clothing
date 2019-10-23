@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const mainStyles = {
-    marginLeft: '43%'
+    textAlign: 'center'
   }
   return (
     <div className="App">
