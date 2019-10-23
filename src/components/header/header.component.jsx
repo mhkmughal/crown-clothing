@@ -12,7 +12,7 @@ const Header = () => (
             SHOP
         </Link>
         <Link className="option" to='/contact'>
-            Sign-in
+            Sign-In
         </Link>
         <Link className="option" to='/contact'>
             CONTACT
