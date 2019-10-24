@@ -24,7 +24,7 @@ const RegisterPage = (props) => {
       e.preventDefault()
       const resp = await firebase.auth().createUserWithEmailAndPassword(RegisterState.email, RegisterState.password);
       if (resp)
-        localStorage.setItem("id", RegisterState)
+        props.history.push('/');
     } catch (error) {
         setRegisterState({ error: error })
     }
@@ -44,16 +44,15 @@ const RegisterPage = (props) => {
                 required
                 type="email"
                 name="email"
-/*                 label='email'
- */                value={RegisterState.email}
+                label='email'                 value={RegisterState.email}
                 onChange={handleLoginChange}
               />
               <FormInput
                 required
                 type="password"
                 name="password"
-/*                 label='password'
- */                onChange={handleLoginChange}
+                label='password'
+                onChange={handleLoginChange}
                 value={RegisterState.password}
               />
         
