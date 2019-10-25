@@ -21,7 +21,7 @@ const firebaseConfig = {
       if(!userAuth)
         return ;
         const userRef  = firestore.doc(`users/${userAuth.uid}`);
-        const snapShot=await userRef.get();
+        const snapShot = await userRef.get();
       if(!snapShot.exists){
         const { displayName, email} = userAuth;
         const createdAt = new Date();
@@ -34,7 +34,7 @@ const firebaseConfig = {
           })
         }
         catch(error){
-          console.log(error.message);
+          //console.log(error.message);
         }
       }
       return userRef;
