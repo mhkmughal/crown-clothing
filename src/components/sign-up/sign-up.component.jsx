@@ -24,6 +24,7 @@ const RegisterPage = (props) => {
       e.preventDefault()
       const resp = await firebase.auth().createUserWithEmailAndPassword(RegisterState.email, RegisterState.password);
       if (resp)
+      console.log(RegisterState.email)
         props.history.push('/');
     } catch (error) {
       setRegisterState({ error: error })
