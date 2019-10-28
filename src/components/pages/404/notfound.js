@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PageNotFound from '../../../Assets/Images/oops.png';
+
 const NotFound = () => (
 <div>
 <center><img alt="error-img" src={PageNotFound} style={{ width:'50%',flaot:'right',opacity:'0.3',marginTop:'-130px' }}/></center>
