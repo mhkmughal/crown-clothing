@@ -12,7 +12,7 @@ import ShopPage from './components/pages/shop/shop.component.jsx';
 import { createUserProfileDocument } from './firebase/firebaseConfig';
 import HomePage from './components/pages/homepage/homepage.component';
 import SignInAndSignUp from './components/pages/sign-in and sign-up/sign-in and sign-up.component';
-import PageNotFound from './notfound';
+import PageNotFound from './components/pages/404/notfound';
 
 class App extends React.Component {
 
