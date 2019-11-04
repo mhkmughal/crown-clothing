@@ -3,7 +3,7 @@ import * as firebase from 'firebase';
 import 'firebase/auth';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FormInput from '../form-input/form-input.component'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './sign-in.style.scss'
 
 const SignIn = (props) => {
@@ -27,10 +27,10 @@ const SignIn = (props) => {
             const resp = firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION)
             if (resp)
                 return firebase.auth().signInWithEmailAndPassword(loginState.email, loginState.password);
-            }catch (error) {
-                setLoginState({ error: error })
-              }
-            }
+        } catch (error) {
+            setLoginState({ error: error })
+        }
+    }
 
     const { error } = loginState;
     return (
@@ -61,12 +61,12 @@ const SignIn = (props) => {
                 />
                 <button value="Submit" className="btn btn-dark">Sign-in</button>
             </form>
-            <br/>
+            <br />
             <h5>Don't have an Account? </h5><span> <Link to='/sign-up'>
                 Register Now
-            </Link></span> 
-            
-           </div>
+            </Link></span>
+
+        </div>
     );
 }
 export default SignIn;

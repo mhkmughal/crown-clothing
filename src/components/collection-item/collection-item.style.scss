@@ -1,33 +1,69 @@
 .collection-item {
-    width: 22%;
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    align-items: center;
-  
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  position: relative;
+
+  .image {
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+  }
+
+  .custom-buttons {
+    width: 80%;
+    opacity: 0.7;
+    position: absolute;
+    top: 225px;
+    display: none;
+  }
+
+  &:hover {
     .image {
-      width: 100%;
-      height: 95%;
-      background-size: cover;
-      background-position: center;
-      margin-bottom: 5px;
+      opacity: 0.8;
     }
-  
-    .collection-footer {
-      width: 100%;
-      height: 5%;
+
+    .custom-buttons {
+      widows: 80%;
+      height: 70px;
+      opacity: 0.85;
       display: flex;
-      justify-content: space-between;
-      font-size: 18px;
-  
-      .name {
-        width: 90%;
-        margin-bottom: 15px;
-      }
-  
-      .price {
-        width: 10%;
+      padding-left: 50px;
+      color: black;
+      font-size: 20px;
+      margin: 10px auto;
+      background-color: white;
+      border: none;
+      font-weight: 600;
+
+      &:hover {
+        color: white;
+        background-color: black;
+        border: 1.5px solid black;
+        transform: scale(1.05);
+        transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       }
     }
   }
-  
+
+  .collection-footer {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+    .name {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      width: 10%;
+    }
+  }
+}

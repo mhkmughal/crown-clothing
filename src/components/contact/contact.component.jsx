@@ -5,5 +5,5 @@ const Contact = () => (
     <div>
         <h1 className="titles">Contact Us</h1>
     </div>
-); 
+);
 export default Contact;
