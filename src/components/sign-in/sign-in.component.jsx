@@ -55,6 +55,7 @@ const SignIn = (props) => {
                     type="password"
                     name="password"
                     label='Password'
+                    autoComplete="password"
                     onChange={handleLoginChange}
                     value={loginState.password}
                 />
