@@ -39,5 +39,5 @@ const firebaseConfig = {
       }
       return userRef;
     };
-
+    
   export default firebaseConfig;

@@ -5,6 +5,8 @@ import {connect} from 'react-redux';
 import * as firebase from 'firebase';
 import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../Assets/Images/crown.svg';
+import CartItem from '../cart-icon/cart-icon.component';
+import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
 const Header = ({ currentUser }) => (
     <div className="header">
@@ -24,10 +26,11 @@ const Header = ({ currentUser }) => (
                 currentUser ?
                     <div style={{cursor:'pointer',color:'blue',textDecoration:'underline'}} className="option" onClick={() => firebase.auth().signOut()}><span>SIGN-OUT</span></div>
                     :
-                    <Link className="option" to='/sign-in'>SIGN-IN</Link>
+                    <Link className="option" to='/sign-in'>Sign-In/Register</Link>
             }
-
+            <CartItem/>
         </div>
+        <CartDropdown/>
     </div>
 );
 
