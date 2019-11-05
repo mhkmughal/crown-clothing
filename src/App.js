@@ -13,6 +13,9 @@ import { createUserProfileDocument } from './firebase/firebaseConfig';
 import HomePage from './components/pages/homepage/homepage.component';
 import SignInAndSignUp from './components/pages/sign-in and sign-up/sign-in and sign-up.component';
 import PageNotFound from './components/pages/404/notfound';
+import {createStructuredSelector} from 'reselect'
+import { selectCurrentUser } from './redux/user/user.selectors';
+import Checkout from './components/pages/checkout/checkout.component';
 
 class App extends React.Component {
 
@@ -61,6 +64,7 @@ class App extends React.Component {
           }
           />
           <Route exact path='/contact' component={Contact} />
+          <Route path='/checkout' component={Checkout} />
           <Route path='*' component={PageNotFound} />
         </Switch>
       </div>
@@ -68,8 +72,8 @@ class App extends React.Component {
   }
 }
 
-const mapStateToProps = ({ user }) => ({
-  CurrentUser: user.CurrentUser
+const mapStateToProps = createStructuredSelector({
+  CurrentUser: selectCurrentUser
 });
 
 const mapDispatchToProps = dispatch => ({
