@@ -1,0 +1,252 @@
+[33mcommit 7ef4fecc83e1ee73ef306f961e89e29d6a9b3449[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Tue Nov 5 13:48:35 2019 -0500
+
+    Added selectors for users, cart and created checkout page
+
+[33mcommit 78141c6ddeb3c6988568e2b33e282d9e3f2a13ee[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Tue Nov 5 10:14:55 2019 -0500
+
+    Updating our app with selectors
+
+[33mcommit 0a44822e6d43e7a6d5477fd53d0b62b945ed1eab[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Nov 4 14:39:52 2019 -0500
+
+    Added cart actions, reducers and utils
+
+[33mcommit 13b6ef68598478aeea5e2ad98b2ea4df64d048c5[m
+Merge: 000c3af 7f1f876
+Author: Hamza Khan <37546098+mhkmughal@users.noreply.github.com>
+Date:   Mon Nov 4 13:35:51 2019 -0500
+
+    Merge pull request #6 from mhkmughal/components
+    
+    Components
+
+[33mcommit 7f1f876d5c226cbca79080d855975c38b40acb13[m[33m ([m[1;31morigin/components[m[33m, [m[1;32mcomponents[m[33m)[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Nov 4 13:35:03 2019 -0500
+
+    custom-button component added
+
+[33mcommit 0233715f793ff17e685ee95cd52f05bd6ebd0bea[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Nov 4 13:33:38 2019 -0500
+
+    Created toggle functionality for cart dropdown and apply formatting to the text
+
+[33mcommit 9e3e855115e2bbf4afbce76772729cf927e56465[m
+Merge: 2ca3908 000c3af
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Nov 4 11:04:58 2019 -0500
+
+    Merge branch 'master' of https://github.com/mhkmughal/crown-clothing into components
+
+[33mcommit 000c3af5fc7637ed633e657bea7d750ceac05741[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Nov 4 11:03:19 2019 -0500
+
+    Added and styled Cart-icon and Cart-Dropdown Component
+
+[33mcommit 2ca39084e429dc136885ac07acc161b5c10128f9[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Oct 28 16:51:40 2019 -0400
+
+    master commit
+
+[33mcommit 8e6129c8447e60801fa594f6a4bdad3f8ffbf119[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Oct 28 16:47:57 2019 -0400
+
+    redux (store, reducers, action for sign-in added) and not found page added
+
+[33mcommit 3024b82236ba8d06b34ccdd45f612e433b9cc9b6[m
+Merge: ea0ba1d 296d688
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Oct 28 16:46:31 2019 -0400
+
+    Merge branch 'master' of https://github.com/mhkmughal/crown-clothing
+
+[33mcommit ea0ba1d21335ec1c208dae8a5fce44bdf4dd2956[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Oct 28 16:45:43 2019 -0400
+
+    redux (store, reducers, action for sign-in added) and not found page added
+
+[33mcommit 296d68811192f3e7fd5d9cc486531d563400d0f4[m
+Merge: 5509042 baa2ecb
+Author: Hamza Khan <37546098+mhkmughal@users.noreply.github.com>
+Date:   Mon Oct 28 16:41:40 2019 -0400
+
+    Merge pull request #5 from mhkmughal/components
+    
+    Components
+
+[33mcommit baa2ecb649c2276711f85c7954aadab13d10894c[m
+Merge: 524ecac 5509042
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Oct 28 16:39:56 2019 -0400
+
+    Merge branch 'master' of https://github.com/mhkmughal/crown-clothing into components
+
+[33mcommit 524ecac0097658542f7d5e45d2feb22bf86df5f9[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Oct 28 16:39:11 2019 -0400
+
+    Setup redux, added store, actions, reducers and created notfound page
+
+[33mcommit 55090422ecc74edb90c9e15f3e2123f47d820933[m
+Merge: e747673 aa6bf52
+Author: Hamza Khan <37546098+mhkmughal@users.noreply.github.com>
+Date:   Fri Oct 25 16:18:42 2019 -0400
+
+    Merge pull request #4 from mhkmughal/components
+    
+    Components Finalized
+
+[33mcommit aa6bf52bac38b1f3bb1afae0986096f1fdcedef3[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Fri Oct 25 16:17:12 2019 -0400
+
+    Components Finalized
+
+[33mcommit e7476736373f678c5d2cac2d3950ceeb0a1a6dc6[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Fri Oct 25 16:14:05 2019 -0400
+
+    Favicon and Minor changes
+
+[33mcommit 8111e44e962391115f656725dd55b0b583b69222[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Fri Oct 25 12:00:14 2019 -0400
+
+    Saving User Data intr Database
+
+[33mcommit b553d8af81cc9c8f76f6b2b27256aec7eb635c21[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Thu Oct 24 16:24:41 2019 -0400
+
+    saved sign-in data into database
+
+[33mcommit c78570a5e5c4194e2070d6ceb76deb92c338dcd1[m
+Merge: 900e897 5eabe2a
+Author: Hamza Khan <37546098+mhkmughal@users.noreply.github.com>
+Date:   Thu Oct 24 12:27:29 2019 -0400
+
+    Merge pull request #3 from mhkmughal/components
+    
+    Components
+
+[33mcommit 5eabe2a6dd5b8909eac8cd7bea17c83d3c6e4596[m
+Merge: 28ba5f9 900e897
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Thu Oct 24 12:23:11 2019 -0400
+
+    Merge branch 'master' of https://github.com/mhkmughal/crown-clothing into components
+
+[33mcommit 28ba5f9b0da2294eeee15256633767a5a36c6697[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Thu Oct 24 12:22:26 2019 -0400
+
+    Sign-in and Sign-up Components
+
+[33mcommit 900e89714b2e894f56f9635cdf8c94a45c63c04d[m
+Merge: f8b433b 12f4e39
+Author: mhkmughal <37546098+mhkmughal@users.noreply.github.com>
+Date:   Wed Oct 23 16:23:18 2019 -0400
+
+    Merge pull request #2 from mhkmughal/components
+    
+    finalized the shop component
+
+[33mcommit 12f4e39e26a722f18a4a9273789138b0b7bf987b[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 16:22:21 2019 -0400
+
+    finalized the shop component
+
+[33mcommit f8b433bc7aae6bd233b5abaf7cf8fc9e736338d8[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 16:17:40 2019 -0400
+
+    finalized the shop component
+
+[33mcommit 687a2770ed73c10dac5b54f3ef5c3c8c1486440c[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 16:09:23 2019 -0400
+
+    Navbar Design
+
+[33mcommit 9220231ac08bd3afa3acc56b28216e55efc445d0[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 15:43:34 2019 -0400
+
+    Shop Page and Preview
+
+[33mcommit f69ea4be61313f854551d65a0c6bd617e63dca94[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 13:53:05 2019 -0400
+
+    routing
+
+[33mcommit f4e4daaaf18ec3356e1de7c582c1004672f7bef4[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 13:22:19 2019 -0400
+
+    Changes
+
+[33mcommit b62e98178fa428c44678cb7a76208bc74b4d1ba2[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 11:32:44 2019 -0400
+
+    final
+
+[33mcommit 62b23e3c8c9234ca3594598a7f6858e93272771b[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 11:11:29 2019 -0400
+
+    Changed the size of menu item
+
+[33mcommit 6e9c6652b232cb8b785a17093af0e3c058d08886[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 11:09:44 2019 -0400
+
+    no new change
+
+[33mcommit b8558d250c1da16d1cd2a1ce28e3a23b9508e2c1[m
+Author: mhkmughal <37546098+mhkmughal@users.noreply.github.com>
+Date:   Wed Oct 23 10:56:49 2019 -0400
+
+    Update README.md
+
+[33mcommit a41f2038bef4f2ade3ed0fdb78bf12122206970d[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 10:55:03 2019 -0400
+
+    Complete Hmepage Component
+
+[33mcommit 5b2e546c9a942775a5342b9a8024ba24cba53059[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Wed Oct 23 10:16:31 2019 -0400
+
+    Component Styling
+
+[33mcommit 915748992932f002cbc80531552dd8f67562f75f[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Tue Oct 22 12:20:21 2019 -0400
+
+    Component Structuring
+
+[33mcommit 94b598e6ee001dd07efee59ed66dd666a38243fe[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Tue Oct 22 10:45:01 2019 -0400
+
+    Comonents
+
+[33mcommit cedf953db442d6478a4f1667ae5a00024a55d028[m
+Author: Hamza khan <hamzakhan2901@gmail.com>
+Date:   Mon Oct 21 15:02:01 2019 -0400
+
+    Project-Setup
