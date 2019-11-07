@@ -1,7 +1,7 @@
 import React from 'react';
 import './cart-dropdown.style.scss';
 import { connect } from 'react-redux';
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { createStructuredSelector } from 'reselect';
 import CartItem from '../cart-item/cart-item.component';
 import { selectCartItems } from '../../redux/cart/cart.selectors';
@@ -21,9 +21,9 @@ const CartDropdown = ({ cartItems }) => (
         </div>
         {
             cartItems.length ?
-           <Link to='/checkout'><CustomButton customButton>GO TO CHECKOUT</CustomButton></Link> : ''
+                <Link to='/checkout'><CustomButton customButton>GO TO CHECKOUT</CustomButton></Link> : ''
         }
-        
+
     </div>
 );
 const mapStateToProps = createStructuredSelector({

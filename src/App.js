@@ -13,7 +13,7 @@ import { createUserProfileDocument } from './firebase/firebaseConfig';
 import HomePage from './components/pages/homepage/homepage.component';
 import SignInAndSignUp from './components/pages/sign-in and sign-up/sign-in and sign-up.component';
 import PageNotFound from './components/pages/404/notfound';
-import {createStructuredSelector} from 'reselect'
+import { createStructuredSelector } from 'reselect'
 import { selectCurrentUser } from './redux/user/user.selectors';
 import Checkout from './components/pages/checkout/checkout.component';
 
@@ -51,14 +51,14 @@ class App extends React.Component {
           <Route exact path='/shop' component={ShopPage} />
           <Route exact path='/sign-in' render={() =>
             this.props.CurrentUser ? (
-              <Redirect to='/' />
+              <Redirect to='/shop' />
             ) : (
                 <SignInAndSignUp />)
           }
           />
           <Route exact path='/sign-up' render={() =>
             this.props.CurrentUser ? (
-              <Redirect to='/' />
+              <Redirect to='/shop' />
             ) : (
                 <SignUp />)
           }

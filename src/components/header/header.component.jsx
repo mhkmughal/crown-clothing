@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../Assets/Images/crown.svg';
 import CartItem from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
-import {selectCartHidden } from '../../redux/cart/cart.selectors';
-import {selectCurrentUser} from '../../redux/user/user.selectors';
-import {createStructuredSelector} from 'reselect';
+import { selectCartHidden } from '../../redux/cart/cart.selectors';
+import { selectCurrentUser } from '../../redux/user/user.selectors';
+import { createStructuredSelector } from 'reselect';
 
 const Header = ({ currentUser, hidden }) => (
     <div className="header">
