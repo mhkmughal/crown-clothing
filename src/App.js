@@ -9,7 +9,7 @@ import Header from './components/header/header.component';
 import SignUp from './components/sign-up/sign-up.component';
 import Contact from './components/contact/contact.component'
 import ShopPage from './components/pages/shop/shop.component.jsx';
-import { createUserProfileDocument } from './firebase/firebaseConfig';
+import { createUserProfileDocument } from './firebase/firebase.util';
 import HomePage from './components/pages/homepage/homepage.component';
 import SignInAndSignUp from './components/pages/sign-in and sign-up/sign-in and sign-up.component';
 import PageNotFound from './components/pages/404/notfound';
@@ -23,9 +23,11 @@ class App extends React.Component {
 
   componentDidMount() {
     const { setCurrentUser } = this.props;
+
     this.unsubscribeFromAuth = firebase.auth().onAuthStateChanged(async userAuth => {
       if (userAuth) {
         const userRef = await createUserProfileDocument(userAuth);
+
         userRef.onSnapshot(snapshot => {
           setCurrentUser({
             id: snapshot.id,

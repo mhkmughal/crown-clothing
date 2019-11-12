@@ -7,13 +7,13 @@ import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
-import {PersistGate} from 'redux-persist/integration/react';
+import { PersistGate } from 'redux-persist/integration/react';
 
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
-        <PersistGate persistor={persistor}>
-            <App />
+            <PersistGate persistor={persistor}>
+                <App />
             </PersistGate>
         </BrowserRouter>
     </Provider>,
