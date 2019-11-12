@@ -23,6 +23,7 @@ const StripeCheckoutButton = ({ price }) =>{
         token={onToken}
         currency="PKR"
         stripeKey={publishKey}
+        style={{background:'#41AAE6'}}
         />
     );
 }
