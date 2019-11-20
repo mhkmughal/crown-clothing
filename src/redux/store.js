@@ -5,7 +5,6 @@ import { createStore, applyMiddleware } from 'redux';
 
 const middlewares = [];
 if (process.env.NODE_ENV === 'development') {
-    console.log(process.env.NODE_ENV);
     middlewares.push(logger);
 }
 export const store = createStore(RootReducer, applyMiddleware(...middlewares));

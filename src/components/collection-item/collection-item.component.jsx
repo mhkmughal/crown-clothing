@@ -21,7 +21,7 @@ const CollectionItem = ({ item, addItem }) => {
                 onClick={() => addItem(item)}
                 className="custom-buttons">
                 ADD TO CART
-        </button>
+            </button>
         </div>
     )
 }

@@ -29,7 +29,7 @@ const Checkout = ({ cartItems, total }) => (
          )}
       <div className='total'>
          <span>Total: ${total}</span>
-         <center><StripeCheckoutButton style={{}} price={total} /></center>
+         <center><StripeCheckoutButton price={total} /></center>
       </div>
    </div>
 
