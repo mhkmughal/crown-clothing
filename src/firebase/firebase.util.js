@@ -60,10 +60,10 @@ export const convertCollectionSnapshotToMap = collections => {
       id: doc.id,
       title,
       items 
-    } 
-  })
-  return transformedCollection.reduce((accumulator,collection) =>{
-    accumulator[collection.title]= collection;
+    };
+  });
+  return transformedCollection.reduce((accumulator,collection) => {
+    accumulator[collection.title.toLowerCase()]= collection;
     return accumulator;
   },{});
 }; 

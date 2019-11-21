@@ -51,6 +51,7 @@ class App extends React.Component {
 
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
+
           <Route path='/sign-in' render={() =>
             this.props.CurrentUser ? (
               <Redirect to='/shop' />
@@ -58,6 +59,7 @@ class App extends React.Component {
                 <SignInAndSignUp />)
           }
           />
+          
           <Route path='/sign-up' render={() =>
             this.props.CurrentUser ? (
               <Redirect to='/shop' />
@@ -65,6 +67,7 @@ class App extends React.Component {
                 <SignUp />)
           }
           />
+
           <Route path='/contact' component={Contact} />
           <Route path='/checkout' component={Checkout} />
           <Route path='*' component={PageNotFound} />
